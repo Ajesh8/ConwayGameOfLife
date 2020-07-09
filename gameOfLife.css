@@ -1,0 +1,31 @@
+
+body{
+	text-align: center;
+}
+div{
+	display: inline-block;
+}
+
+.checked {
+	background-color: yellow;
+}
+table {
+	table-layout: fixed;
+	width: 2000px;
+	height: 2000px;
+	background-color: blue;
+	border:0px;
+	border-collapse:collapse;
+	border-spacing:0px;
+}
+
+
+td{
+	padding:0px;
+	margin: 0px;
+	width: 10px;
+	height: 10px;
+	border: 1px solid black;
+}
+
+

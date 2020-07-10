@@ -2,21 +2,26 @@
 <html>
 <head>
 	<title>Game Of Life</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="gameOfLife.css">
 	
 </head>
 <body>
-	<h1>Game of Life</h1>
-	<div>
-		<button id="start">Start</button>
-		<button id="stop">Stop</button>
-		<button id="reset">Reset</button>
+	<div id="Headerdiv"> <!--Header division-->
+		<h1>Conway's Game of Life</h1>
 	</div>
-	<div>
-		<table id="Grid">
+	
+	
+	<div id="gofDiv"> <!--Division containing the canvas-->
+		<canvas id="gofcanvas" width="1500px" height="600px" >
 			
-		</table>
+		</canvas>
 	</div>
-	<script type="text/javascript" src="gameOfLife.js"></script>
+	<div id="Controls"> <!--Division containing the control buttons-->
+		<button id="start" class="btn btn-success">Start</button>
+		<button id="stop" class="btn btn-danger">Stop</button>
+		<button id="reset" class="btn btn-secondary">Reset</button>
+	</div>
+	<script type="text/javascript" src="gameOfLife.js"></script> <!--Javascript file with the functionality required-->
 </body>
 </html>

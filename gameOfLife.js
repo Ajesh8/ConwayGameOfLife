@@ -90,7 +90,7 @@ gofcanvas.addEventListener('mousedown', function(e) { //Adding mousedown event f
     	makeDead(i,j);
 });
 
-initialiseGrid(); //Calling initiliaze grid function to initialize the 2D arrays and paint the canvas
+initializeGrid(); //Calling initiliaze grid function to initialize the 2D arrays and paint the canvas
 
 async function gameOfLife(){ //Function to calculate the next generation of cell based on current state
 
